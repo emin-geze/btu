@@ -1,0 +1,22 @@
+{
+  "hosting": [
+    {
+      "target": "domain1",
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "domain2",
+      "public": "public_yedek",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
